@@ -1,0 +1,65 @@
+* {
+    background: #f2cdce;
+    box-sizing: border-box;
+}
+body {
+    background: #f2cdce;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    overflow: auto;;
+}
+
+.header-background {
+    align-content: center;
+    background-image: url(../images/ariana-banner.jpg);
+    height: 300px;
+}
+.container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.game-title {
+    font-size: 45px;
+    padding: 20px;
+    border: 10px dashed black;
+    text-align: center;
+    width: 100%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+/* where the clues go */
+.game-pic {
+    border: 10px dashed black;
+    border-top: none;
+    padding:20px;
+    height: 720px;
+}
+
+
+/* actual game content */
+.game-content{
+    border: 10px dashed black;
+    border-top: none;
+    padding: 20px;
+    float: left;
+    font-family: 'Happy Monkey', cursive;
+    font-size: 25px;
+}
+.instructions {
+    font-size: 25px;
+    font-family: 'Happy Monkey', cursive;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+#currentWord {
+    letter-spacing: 5px;
+    font-size: 1em;
+    width: 600px;
+    word-wrap: break-word;
+}
